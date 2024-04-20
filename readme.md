@@ -1,0 +1,1 @@
+in this project, i will discuss the nextjs features
