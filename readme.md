@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Hi Guys...!!!</h1>
 
-## Getting Started
+Main concepts in Next.js...
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+question is, what will be our home page ?
+answer is , app-> page.tsx will be your home page
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. Routing and navigation
+      <Link />
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   firstly go to this link
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   umm Routing in nextjs is very different from react routing. In react, we just create route by using react-router-dom in index or app.js file but in this , we create folder in app folder
+   lets take example of posts
+   src -> app -> posts - >page.tsx ( this would be your structure)
 
-## Learn More
+2. Metadata
+3. Styling (Tailwind CSS)
+4. <Image />
+5. Client vs Server components
 
-To learn more about Next.js, take a look at the following resources:
+- Data fetching (GET-requests)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+6. Server actions (POST/PUT/DELETE)
+7. Suspense and streaming
+8. Caching
+9. Static & dynamic rendering
+10. Middleware
+11. Production build and deploying
