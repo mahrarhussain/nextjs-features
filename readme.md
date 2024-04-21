@@ -14,6 +14,9 @@ answer is , app-> page.tsx will be your home page
    umm Routing in nextjs is very different from react routing. In react, we just create route by using react-router-dom in index or app.js file but in this , we create folder in app folder
    lets take example of posts
    src -> app -> posts - >page.tsx ( this would be your structure)
+   </br>
+now question is, how can i rdirect to the specific post with id in path then the answer is,
+you have to create a new folder in post directory... post -> [id] -> page.tsx
 
 2. Metadata
 3. Styling (Tailwind CSS)
