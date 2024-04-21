@@ -19,6 +19,10 @@ now question is, how can i rdirect to the specific post with id in path then the
 you have to create a new folder in post directory... post -> [id] -> page.tsx
 
 2. Metadata
+
+--you can also change title of the web
+   app -> layout.tsx
+
 3. Styling (Tailwind CSS)
 4. <Image />
 5. Client vs Server components
